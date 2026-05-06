@@ -1,3 +1,13 @@
+/* src/index.css */
+html, body, #root {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 100% !important;
+  width: 100% !important;
+  overflow: hidden; /* Mencegah scrollbar muncul di luar peta */
+  background-color: #296039; /* Warna navbar agar sisa layar tidak putih */
+}
+
 :root {
   --text: #6b6375;
   --text-h: #08060d;
