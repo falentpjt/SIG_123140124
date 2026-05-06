@@ -4,7 +4,6 @@ import { useAuth } from '../context/AuthContext';
 const AuthPage = () => {
   const [isRegister, setIsRegister] = useState(false);
   const [email, setEmail] = useState('');
-  const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const { login, register } = useAuth();
 
